@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS deepfryd;
+DROP DATABASE IF EXISTS reviewsservice;
 
-CREATE DATABASE deepfryd;
+CREATE DATABASE reviewsservice;
 
-USE deepfryd;
+USE reviewsservice;
 
 CREATE TABLE reviews (
   id int NOT NULL AUTO_INCREMENT,

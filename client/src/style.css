@@ -6,7 +6,7 @@ body {
 
 .appWrapper {
   padding: 15px 12px;
-  font-size: 26px;
+  font-size: 17px;
   border: 1px solid #DDDDDD;
   border-radius: 3px;
   cursor: pointer;
@@ -14,7 +14,7 @@ body {
   box-shadow: 2px 2px #E3E3E3;
 }
 
-.appWrapper:hover {background-color: white};
+/* .appWrapper:hover {background-color: white}; */
 
 .main {
   padding: 20px;

@@ -11,7 +11,7 @@
   "scripts": {
     "test": "jest --verbose",
     "build": "webpack -d --watch",
-    "start": "nodemon server/index.js -w database -w server",
+    "start": "webpack -d --watch & nodemon server/index.js -w database -w server",
     "seed-db": "mysql -u root < schema.sql && node server/insert_data.js"
   },
   "repository": {

@@ -92,6 +92,7 @@ class NewReview extends React.Component {
           <input type="text" name="username"
             placeholder="Example: jackie272"
             className="inputField"
+            autocomplete="off"
             onChange={this.handleInputChange}/><br />
 
           <label>Location:</label><br />
@@ -102,6 +103,7 @@ class NewReview extends React.Component {
           <label>Email:</label><br />
           <input type="text"
             placeholder="Example: youremail@example.com"
+            autocomplete="off"
             className="inputField"/><br />
 
           <div className="marginBottom marginTop">Would you recommend this product to a friend?<span className="yesNo">Yes</span><span className="yesNo">No</span></div>
